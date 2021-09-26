@@ -26,10 +26,7 @@ const Home = () => {
                 <div className={
                     HomeStyle.subHeadlineContainer
                 }>
-                    I am third year student at BGU
-                    <br/>
-                    &&
-                    <br/>A softwear developer
+                    I am Looking for an entry level position as a develepoer
                 </div>
                 <div className={
                     HomeStyle.btns

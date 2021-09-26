@@ -89,10 +89,12 @@
     border: 1px solid rgb(255, 255, 255);
     transition: 0.7s;
 }
+.modal {
+    z-index: 100;
+}
 
-@media screen and (max-width: 870px) {
+@media screen and (max-width: 950px) {
     .allContainer {
-        background-color: rgba(0,0,0,0.3);
         border-radius: 20%;
         left: 50%;
         width: 100%;
@@ -105,6 +107,7 @@
         float: none;
     }
     .subHeadlineContainer {
+        font-size: 23px;
         width: 100%;
         float: none;
         color: rgb(243, 240, 240);
@@ -114,13 +117,21 @@
         text-align: center;
         align-content: center;
         margin: auto;
-        transform: translateX(20%);
+        transform: translateX(27%);
+        margin-top: 25px;
+
     }
 
 }
 
-.modal {
-    z-index: 100;
+
+
+@media screen and (max-width: 870px) {
+
+    .btns {
+        transform: translateX(20%);
+        
+    }
 }
 
 @media screen and (max-width: 550px) {

@@ -39,7 +39,7 @@ const About = () => {
                             }
                             startDelay={300}
                             cursorColor="white"
-                            text="I am a third (and last) year student at Ben Gurion Unevirsity.
+                            text="I am a third (and last) year computer science student at Ben Gurion Unevirsity.
                             I am looking for a student position as a softwear developer, or a web developer.
                             "
                             typeSpeed={80}
@@ -52,9 +52,9 @@ const About = () => {
                                     color: "rgb(204, 204, 204)"
                                 }
                             }
-                            startDelay={14300}
+                            startDelay={15200}
                             cursorColor="white"
-                            text="During my studies I gained expirience in many languages, and currently I 
+                            text="During my studies I gained experience in many languages, and currently I 
                             am mostly interested in JS and TS.
                             I am eager to learn and willing to put up the work for that."
                             typeSpeed={80}/>
