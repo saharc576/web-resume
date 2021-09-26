@@ -1,0 +1,100 @@
+
+
+.splitLeft {
+    height: 40%;
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    padding-top: 20px;
+    z-index: 1;
+
+}
+.splitRight {
+    height: 55%;
+    width: 68%;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    overflow: hidden;
+    padding-top: 10px;
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+    .splitLeft {
+        width: 50%;
+        transform: translateX(55%);
+
+    }
+    .splitRight {
+        top: 45%;
+        width: 90%;
+
+    }
+    .hide {
+        display: none;
+    }
+
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    width: 50%;
+    border-radius: 50%;
+    transform: translateX(-15%);
+}  
+
+.image:hover {
+    width: 60%;
+    transition: 0.5s;
+}
+
+.info {
+    line-height: 1.5;
+    font-size: 24px;
+    font-weight: bold;
+    color: snow;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.footerContainer {
+    position: absolute;
+    justify-content: center;
+    bottom: 0;
+    padding: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 70%;
+    font-size: 36px;
+    z-index: 1;
+}
+
+.whatsapp {
+    margin-top: 10px;
+    color: snow;
+    background-color: #25D366;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateX(-10%);
+    cursor: pointer;
+    height: 59px;
+    overflow: hidden;
+    color: black;
+    line-height: 3.1rem;
+    padding-left: 10px;
+    font-size: 19px;
+    size: wrap;
+}
+
+
+

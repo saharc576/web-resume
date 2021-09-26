@@ -1,0 +1,89 @@
+.flipCard {
+  background-color: transparent;
+  width: 40vh;
+  height: 55vh;
+  border: 1px solid #5e31db;
+  perspective: 1000px;
+  border-radius: 25px;
+  margin-right:3rem;
+}
+
+/* This container is needed to position the front and back side */
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  
+}
+
+.flipCard:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flipCardFront, .flipCardBack {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 25px;
+
+}
+
+/* Style the front side (fallback if image is missing) */
+.flipCardFront {
+  background-color: rgb(198, 83, 140);
+  color: black;
+  text-align: center;
+  align-content: center;
+}
+
+/* Style the back side */
+.flipCardBack {
+  background-color: #383838;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.buttonContainer {
+  position: fixed;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  bottom: 10%;
+  width: 80%;
+  border: 1px solid white;
+}
+
+.imgFront {
+  margin-top: 20%;
+}
+
+.button {
+  text-align: center;
+  margin: auto;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  transition: 0.4s;
+  background-color: #6fd448;
+}
+
+@media screen and (max-width: 920px) {
+
+  .flipCard {
+    width: 100vh;
+    height: 40vh;
+    margin-bottom: 8px;
+  }
+  .imgFront {
+    margin-top: 0%;
+  }
+
+
+}

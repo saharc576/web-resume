@@ -3,7 +3,7 @@
     width: 100%;
     background-color: rgba(250, 246, 246, 0.1);
     margin-top: 0;
-    z-index: 1;
+    z-index: 100;
 }
 
 .ul {
@@ -27,9 +27,4 @@ li button {
 }
 li button:hover {
     background-color: darkcyan;
-}
-
-li button :active {
-    background-color: rgb(131, 248, 115);
-    color: black;
 }

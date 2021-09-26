@@ -1,0 +1,42 @@
+
+.projectsHeadline {
+    text-align: center;
+    padding-top: 9%;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 2rem;
+  }
+  
+  .projectsContainer {
+    margin-top: 0;
+    display: grid;
+    
+    margin-bottom: 20px;
+    z-index: 1;
+    border: solid black;
+    overflow: hidden;
+  }
+
+  .projectsFooter {
+    text-align: center;
+    font-size: 1.3rem;
+    color: whitesmoke;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 2rem;
+  }
+  .ulCards {
+    z-index: 1;
+    list-style-type: none;
+    height: 100%;
+    max-width: 100%;
+    margin:0;
+    justify-content: space-between;
+    display: inline-flex;
+  }
+  
+  .liCards {
+    height: fit-content;
+    width: fit-content;
+    margin: 2px;
+  }

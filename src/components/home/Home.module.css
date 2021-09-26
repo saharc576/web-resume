@@ -1,0 +1,138 @@
+
+.allContainer {
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    margin-top: 25%;
+    text-align: center;
+    width: 50%;
+
+}
+
+.headlineContainer {
+    position: relative;
+    top: 30%;
+    text-align: center;
+    width: 11ch;
+    height: fit-content;
+    overflow: hidden;
+    margin-bottom: 5px;
+    font-size: 75px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    margin-left: 0;
+    padding-left: 0%;
+}
+
+.subHeadlineContainer {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    width: 70%;
+    height: fit-content;
+    overflow: hidden;
+    margin-bottom: 5px;
+    font-size: 26px;
+    color: rgb(211, 208, 208);
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.btns {
+    position: relative;
+    margin-left: 10px;
+    background-color: transparent;
+    width: 100%;
+    height: fit-content;
+    float: left;
+    
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+.li {
+    float: left;
+    padding: 5px;
+}
+
+.btn {
+    background-color: transparent;
+    border:0.5px solid whitesmoke;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 2px;
+    z-index: 10;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.btn:hover {
+    background-color: rgb(161, 160, 160);
+    transition: 0.7s;
+}
+
+.modalBtn {
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 50px;
+
+}
+.modalBtn:hover {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    transition: 0.7s;
+}
+
+@media screen and (max-width: 870px) {
+    .allContainer {
+        background-color: rgba(0,0,0,0.3);
+        border-radius: 20%;
+        left: 50%;
+        width: 100%;
+    }
+    
+
+    .headlineContainer {
+        font-size: 70px;
+        width: 100%;
+        float: none;
+    }
+    .subHeadlineContainer {
+        width: 100%;
+        float: none;
+        color: rgb(243, 240, 240);
+    }
+
+    .btns {
+        text-align: center;
+        align-content: center;
+        margin: auto;
+        transform: translateX(20%);
+    }
+
+}
+
+.modal {
+    z-index: 100;
+}
+
+@media screen and (max-width: 550px) {
+    .btns {
+        
+        transform: translateX(25%);
+    }
+
+    .allContainer {
+        margin-top: 45%;
+    }
+
+
+
+}

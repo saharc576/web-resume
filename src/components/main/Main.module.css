@@ -1,0 +1,13 @@
+.container, .projectsContainer {
+    position: relative;
+    width: 100vh;
+    min-width: 100%;
+    height: 100vh;
+  }
+
+  
+  @media screen and (max-width: 920px) {
+    .projectsContainer {
+      min-height: 160vh;
+    }
+  }
