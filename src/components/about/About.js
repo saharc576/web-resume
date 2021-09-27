@@ -61,6 +61,7 @@ const About = () => {
 
 
                     </p>
+                    
                 </div>
             </span>
             <span id="footer-buttons"

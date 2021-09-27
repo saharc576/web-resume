@@ -49,7 +49,7 @@ const MainFooter = () => {
                         style={socialIconStyle}/>
                 </li>
                 <li className={
-                        MainFooterStyle.li
+                        MainFooterStyle.liEmail
                     }
                     title="send email">
                     <a href="mailto:sahar576cohen@gmail.com">

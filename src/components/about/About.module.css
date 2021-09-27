@@ -37,7 +37,6 @@
     .hide {
         display: none;
     }
-
 }
 
 .image {
@@ -63,6 +62,7 @@
     font-family: 'Dosis', sans-serif;
 
 }
+
 
 .footerContainer {
     position: absolute;
@@ -95,6 +95,24 @@
     font-size: 19px;
     size: wrap;
 }
+@media screen and (max-width: 500px) {
 
 
+    .splitLeft {
+        width: 70%;
+        transform: translateX(55%);
+        top: 12%;
 
+    }
+    .splitRight {
+        top: 30%;
+        width: 90%;
+        height: 68%;
+    }
+    .image {
+        margin-top: 0;
+        transform: translateX(-65%);
+        width: 50%
+    }
+
+}

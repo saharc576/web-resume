@@ -11,3 +11,13 @@
       min-height: 160vh;
     }
   }
+  @media screen and (max-width: 500px) {
+    .projectsContainer {
+      width: 300px;
+      overflow-x: hidden;
+    }
+    .container {
+      width: 300px;
+      overflow-x: hidden;
+    }
+  }

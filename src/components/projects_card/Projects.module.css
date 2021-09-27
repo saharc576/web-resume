@@ -83,3 +83,18 @@
     }
 
   }
+
+  @media screen and (max-width: 500px) {
+    .headlineText {
+      line-height: 1.5rem;
+    }
+    .projectsContainer {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+    .ulCards {
+      border-radius: 100px;
+    }
+    
+  
+  }

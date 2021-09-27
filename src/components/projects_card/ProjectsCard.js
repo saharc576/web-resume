@@ -1,14 +1,11 @@
 import CardStyle from "./ProjectsCard.module.css";
-import OldMan from '../pictures/Oldman.png';
 
 const ProjectsCard = ({
     HeaderP1,
     HeaderP2,
     subject,
     content,
-    message,
     imgFront,
-    imgBack,
     func
 }) => {
     return (

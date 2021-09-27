@@ -24,15 +24,6 @@
     margin-right: auto;
 }
 
-.contentContainer {
-    position: absolute;
-    display: grid;
-    width: 600px;
-    height: 70vh;
-    margin-top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-}
 .colLeft {
     height: 80vh;
     width: 30%;
@@ -134,10 +125,7 @@
     .headlineText{
         font-size: 26px;
     }
-    .contentContainer {
-        width: 400px;
-        height: 60vh;
-    }
+    
 }
 
 @media screen and (max-width: 1000px) {
@@ -146,17 +134,39 @@
     }
 
 }
-@media screen and (max-height: 510px) {
-    .btnUp {
+@media screen and (max-width: 500px) {
+    .btnUp, .btnUp:hover {
+        margin-top: 8rem;
+        height: 150px;
+        width: 150px;
+        z-index: 1000;
+    }
+    .btnDown, .btnDown:hover {
+        z-index: 1000;
         height: 150px;
         width: 150px;
     }
-    .btnDown {
-        height: 150px;
-        width: 150px;
+    .btn, .btn:hover {
+        margin-top: 7rem;
+        height: 70px;
+        width: 270px;
+        font-size: 13.5px;
+        font-weight: 600;
+        border-radius: 30px;
+        margin-left: 15px;
+        z-index: 9;
     }
-    .btn {
-        margin-top: 10rem;
+
+    .rightContainer {
+        align-items: center;
+        text-align: center;
+        margin-right: 65px;
+        width: 150px;
+
+    }
+    .leftContainer {
+        z-index: 100000;
+        width: 150px;
     }
 
 }
@@ -164,75 +174,8 @@
 @media screen and (max-width: 690px) {
     .headlineText{
         font-size: 22px;
+        line-height: 1.6rem;
     }
   
 }
 
-
-@media screen and (max-width: 450px) {
-    .btn {
-        height: 170px;
-        width: 190px; 
-        border-radius: 30%;
-        margin-top: 17.5rem;  
-        font-size: 24px;
-        transform: translateX(-36%);
-    }
-    .btn:hover {
-        height: 170px;
-        width: 190px; 
-        border-radius: 30%;
-        margin-top: 17.5rem;  
-        transform: translateX(-36%);
-    }
-    .btn:active {
-        height: 170px;
-        width: 190px; 
-        border-radius: 30%;
-        margin-top: 17.5rem;  
-        transform: translateX(-36%);
-        font-size: 24px;
-    }
-    .leftContainer {
-        margin-top: 6.5rem ;
-    }
-    .rightContainer {
-        margin-top: 6.5rem ;
-
-    }
-    .btnUp {
-        height: 250px;
-        width: 250px;
-        left: 17%;
-
-    }
-    .btnDown {
-        height: 250px;
-        width: 250px;
-        left: 17%;
-    }
-}
-
-@media screen and (max-width: 415px) {
-    .btnUp {
-        height: 200px;
-        width: 200px;
-    }
-    .btnDown {
-        height: 200px;
-        width: 200px;
-    }
-    .btn {
-        margin-top: 21.5rem ;
-        transform: translateX(-53%);
-
-    }
-}
-
-@media screen and (max-width: 300px) {
-    .btn {
-        margin-top: 18rem ;
-        transform: translateX(-40%);
-    }
-
-}
