@@ -29,7 +29,7 @@ const ProjectsCard = ({
                     CardStyle.flipCardBack
                 }>
                     <h1 style={{fontSize:'22px'}}>{subject}</h1>
-                    <p style={{marginTop:'0', paddingTop:'0'}}>{content}</p>
+                    <p className={CardStyle.content}>{content}</p>
                     <div className={CardStyle.buttonContainer}>
                         <button onClick={func} className={CardStyle.button}>To Repository</button>
                     </div>

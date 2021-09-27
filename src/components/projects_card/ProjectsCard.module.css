@@ -74,6 +74,11 @@
   background-color: #6fd448;
 }
 
+.content {
+  margin-top:0;
+  padding-top:0;
+}
+
 @media screen and (max-width: 920px) {
 
   .flipCard {
@@ -85,5 +90,15 @@
     margin-top: 0%;
   }
 
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .content {
+    margin-right: auto;
+    margin-left: auto;
+    width: 30ch;
+  }
 
 }
